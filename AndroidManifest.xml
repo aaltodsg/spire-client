@@ -1,0 +1,173 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.spire"
+
+    android:versionCode="3"
+    android:versionName="1.2">
+
+    <uses-sdk android:minSdkVersion="13"
+            android:targetSdkVersion="19"/>
+
+    <permission
+        android:name="com.spire.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature"/>
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- MJR: This is included in FINE_LOCATION: uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <!--android:theme="@style/AppBaseTheme"
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"></uses-permission>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"></uses-permission>
+    -->
+
+    <!-- MJR: IDEA was complaining about empty body in the versions above, so I'm trying this instead: -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <permission android:name="com.spire.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="com.spire.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION"/>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"/>
+
+
+    <uses-library android:name="android.test.runner" />
+
+    <application
+        
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme"
+        android:screenOrientation="portrait"
+        android:icon="@drawable/ic_launcher">
+
+
+        <!--android:theme="@style/AppBaseTheme"-->
+
+        <activity
+            android:name="com.spire.authentication.Auth"
+            android:label="@string/app_name"
+            android:theme="@style/AuthTheme"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+                android:name="com.spire.MainActivity"
+                android:theme="@style/AppBaseTheme"
+                android:launchMode="singleTask"
+                android:screenOrientation="portrait">
+
+            <!-- Receives the search request. -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <!-- No category needed, because the Intent will specify this class component-->
+            </intent-filter>
+
+            <!-- Points to searchable meta data. -->
+            <meta-data android:name="android.app.searchable"
+                       android:resource="@xml/searchable" />
+
+        </activity>
+
+        <activity
+            android:name="com.spire.favorites.MyFavorites"
+            android:label="@string/my_favorites"
+           
+            android:theme="@style/AppHoloDark"
+            
+            android:screenOrientation="portrait">
+
+        <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.spire.MainActivity"
+                />
+        </activity>
+
+        <!-- MJR 3.3.2014: If the google_play_services library is not properly included, the compiler will request an explicit version number below (e.g. 4132500) -->
+        <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.spire.authentication.AuthActivity"
+            android:label="@string/my_favorites"
+            android:theme="@style/AppHoloDark"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+
+        <activity android:name=".debug.ServiceDialog" android:label="" android:theme="@android:style/Theme.Dialog" />
+
+
+
+        <activity
+                android:name="com.spire.parking_details.ParkingDetails"
+                android:label="@string/parking_details"
+               
+                 android:theme="@style/AppHoloDark"
+
+                
+                android:screenOrientation="portrait">
+
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.spire.MainActivity" />
+        </activity>
+
+        <meta-data
+                android:name="com.google.android.maps.v2.API_KEY"
+                android:value="@string/google_maps_api_v2_key" />
+
+
+        <!-- Provides search suggestions for words and their definitions. -->
+        <provider android:name=".SearchProvider"
+                  android:authorities="com.spire.SearchProvider" />
+
+        <!-- Points to searchable activity so the whole app can invoke search. -->
+        <meta-data android:name="android.app.default_searchable"
+                   android:value=".MainActivity" />
+
+        <service android:name="com.spire.geofence.ReceiveTransitionsIntentService" android:exported="false"></service>
+
+
+
+
+        <receiver android:name="com.google.android.gcm.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.spire" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".GCMIntentService" />
+
+        <service
+                android:name="com.spire.activity_recognition.ActivityRecognitionIntentService"
+                android:label="@string/app_name"
+                android:exported="false"></service>
+
+        <service android:name="com.spire.parking_procedure.TrackingService"/>
+    </application>
+
+
+
+</manifest>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white">
+
+        <ListView
+            android:id="@+id/lv_favorites_list"
+            android:divider="@android:drawable/divider_horizontal_textfield"
+            android:dividerHeight="1dp"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="No favorites yet"
+            android:id="@+id/txt_empty"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/black"/>
+
+
+    <!--<ImageView-->
+            <!--android:id="@+id/imv_favorites_list_icon"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="8dp"-->
+            <!--android:src="@drawable/ic_launcher"-->
+            <!--android:contentDescription="icon_for_list_item"-->
+            <!--/>-->
+</LinearLayout>

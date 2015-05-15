@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_list_item"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical"
+              android:paddingLeft = "8dp"
+              android:paddingRight="8dp">
+
+
+    <ImageView
+            android:id="@+id/imv_list_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:contentDescription="icon_for_list_item"
+            />
+
+    <TextView
+            android:id="@+id/tv_list_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_margin="8dp"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+</LinearLayout>
+
+
+
+
+
+<!--<TextView-->
+<!--android:id="@+id/tvdesc"-->
+<!--android:layout_width="fill_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_below="@+id/tvtitle"-->
+<!--android:layout_toRightOf="@+id/image"-->
+<!--android:ellipsize="end"-->
+<!--android:maxLines="3"-->
+<!--android:text="desc"-->
+<!--android:textColor="@android:color/black"-->
+<!--android:textSize="13dip"/>-->

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="start"
+
+              android:orientation="vertical"
+
+              android:background="@android:color/holo_green_light"
+        >
+
+
+    <ListView
+            android:id="@+id/lv_fragment_drawer"
+
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:divider="@android:drawable/divider_horizontal_textfield"
+            android:dividerHeight="1dp"
+
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+
+            android:layout_weight="1"/>
+
+    <Button
+            android:id="@+id/log_out_button"
+
+            android:text="Log out"
+
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="16dp"
+
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+
+            android:background="@android:color/darker_gray"
+
+            android:layout_weight="0"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_centerHorizontal="true"/>
+
+</LinearLayout>

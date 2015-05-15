@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">Spire</string>
+    <string name="app_name_up_register">SPIRE</string>
+    <!-- map -->
+    <string name="map_destination_address">Destination address</string>
+    
+    
+    <!-- main: actionbar -->
+	<string name="menu_search">Search</string>
+	<string name="main_actionbar_search_hint">Search destination</string>
+	<string name="search_label">Search</string>
+	<!--  -->
+    
+    <!-- drawer's string -->
+    <string name="drawer_map_view">Map view</string>
+    <string name="drawer_favorites">My favorites</string>
+    <string name="drawer_preferences">My preferences</string>
+    <string name="drawer_general_feedback">General Feedback</string>
+    
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+   
+
+    <!--  -->
+    
+    
+    <!-- strings in notification -->
+    <string name="btn_notif_report">Report status</string>
+    <string name="btn_notif_feedback">General feedback</string>
+    <string name="notif_title">On a parking lot</string>
+    <string name="notif_message">Would you like to report availability?</string>
+    <!--    -->
+
+    <string name="drawer_title">SPIRE</string>
+    <string name="my_favorites">My favorites</string>
+    <string name="parking_details">Parking Details</string>
+
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+    <!-- parking details -->
+    <string name="availability_of_spaces">Availability of Spaces</string>
+    <string name="get_direction">Get directions</string>
+    
+    <string name="parking_space_avalable_plenty">Plenty of parking space available</string>
+    <string name="parking_space_avalable_some">Some parking space available</string>
+    <string name="parking_space_avalable_full">Parking area is full</string>
+    
+    <!-- -->
+
+
+    <!-- START: alert dialogs -->
+
+    <!-- ... in ParkingDetails-->
+    <string name="cancel">Cancel</string>
+    <string name="send">Send</string>
+
+    <!-- INIT_CONFIG: Address of the "about" page. -->
+    <string name="help"> <a href="http://spire.server.com/spire/about">Help and about SPIRE</a> </string>
+
+    <!-- ... in Main Window -->
+    <string name="alert_main_title">Location services disabled</string>
+    <string name="alert_main_message">Google Maps needs access to your location. Please turn on Location Services</string>
+    <string name="alert_main_btn_positive">Enable</string>
+    <string name="alert_main_btn_negative">Cancel</string>
+
+    <!-- ... in Main Window: can't get myCoordinates -->
+    <string name="alert_main_location_title">Location services are not enabled</string>
+    <string name="alert_main_location_message">Google Maps can\'t receive your location. Please, try later</string>
+    <string name="alert_main_location_btn_neutral">Ok</string>
+
+    <!-- ... in Main Window: improve -->
+    <string name="alert_main_improve_title">Help us to improve!</string>
+    <string name="alert_main_improve_message">Would you mind joining our user survey with a few questions for improving the quality or our service? </string>
+    <string name="alert_main_improve_btn_negative">Skip</string>
+    <string name="alert_main_improve_btn_positive">Take the survey</string>
+
+    <!-- END: alert dialogs -->
+
+    <!-- ... Register dialog -->
+    <string name="title_registr_dialog">SPIRE</string>
+    <string name="content_registr_dialog">Please create a SPIRE account to continue using application.</string>
+
+
+    <string name="btn_registr_dialog_register_via_browser">Register via Browser</string>
+    <string name="btn_registr_dialog_close_application">Close Application</string>
+    <!-- END: Register dialog -->
+
+
+
+
+
+<!-- INIT_CONFIG: SPIRE Server address -->
+    <string name="url">http://spire.server.com/spire</string>
+    <string name="receiver_update">com.spire.mapview.update_map</string>
+    <string name="receiver_update_distance">com.spire.mapview.update_marker_distance</string>
+    <string name="receiver_start_tracker">com.spire.tracking_service.start_tracker</string>
+    <string name="receiver_activity_recognition">com.spire.tracking_service.activity_recognition</string>
+    <string name="receiver_service_start">com.spire.main.service_start</string>
+
+    <string name="receiver_update_favorites">com.spire.my_favorites.update_favorites</string>
+
+
+    <string name="receiver_show_survey_dialog">com.spire.main.show_survey_dialog</string>
+
+    <string name="receiver_profile_check">com.spire.mapview.profile_check</string>
+
+    <string name="receiver_progress_dialog">com.spire.auth.progress_dialog</string>
+
+    <string name="receiver_parked_notif">com.spire.main.parked_notif</string>
+
+
+    <string name="receiver_update_search_list">com.spire.MainActivity.update_search_list</string>
+    <string name="receiver_update_search_dest_marker">com.spire.MainActivity.update_search_dest_marker</string>
+
+    <string name="url_google_api">https://maps.googleapis.com/maps/api/directions</string>
+
+    <string name="receiver_show_activity_type">com.spire.MainActivity.show_activity_type</string>
+    <!-- intent actions -->
+    <string name="create_destination_marker">CreateDestinationMarker</string>
+
+
+    <string-array
+            name="parking_status">
+        <item>text_string</item>
+    </string-array>
+
+
+    <!-- INIT_CONFIG: google maps api v2 keys -->
+    <string name="google_maps_api_v2_key">INSERT_MAPS_API_V2_KEY_HERE</string>
+
+    <!-- INIT_CONFIG: search key -->
+    <string name="google_api_search_key">INSERT_SEARCH_KEY_HERE</string>
+
+</resources>

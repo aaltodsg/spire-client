@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="AppBaseTheme" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/ActionBar2</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_drawer</item>
+        <item name="android:dialogTheme">@android:style/Theme.Holo.Dialog</item>
+    </style>
+
+     
+   <style name="AppHoloDark" parent="android:Theme.Holo">
+         <item name="android:actionBarStyle">@style/ActionBar</item>
+   </style>
+    
+     <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+    	<item name="android:background">#2d2d2d</item>
+         <item name="android:icon">@android:color/transparent</item>
+     </style>
+
+    <style name="ActionBar2" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:icon">@drawable/ic_drawer</item>
+        <item name="android:background">#2d2d2d</item>
+        <item name="android:customNavigationLayout">@layout/action_bar</item>
+
+    </style>
+
+
+    <style name="Transparent" parent="android:Theme.Holo.Light">
+            <item name = "android:windowIsTranslucent">true</item>
+            <item name = "android:windowBackground">@android:color/black</item>
+            <item name = "android:windowContentOverlay">@null</item>
+            <item name = "android:windowNoTitle">true</item>
+            <item name = "android:windowIsFloating">true</item>
+            <item name = "android:backgroundDimEnabled">false</item>
+            
+            
+    </style>
+
+    <!--<color name = "transparent_dark">#80000000</color>-->
+	<color name = "transparent_light">#20000000</color>
+    <color name = "transparent_full">#00000000</color>
+
+
+
+    <style name="AuthTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name = "android:windowBackground">@drawable/start_app_background</item>
+
+    </style>
+
+
+</resources>

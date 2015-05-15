@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--This file configures Google analytics tracking based on v2-->
+
+
+<resources>
+    <!--INIT_CONFIG: Replace placeholder ID with your tracking ID-->
+    <string name="ga_trackingId">INSERT-HERE</string>
+
+    <!--Enable automatic activity tracking-->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!--Enable automatic exception tracking-->
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+</resources>

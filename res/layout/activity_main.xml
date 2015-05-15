@@ -1,0 +1,66 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="start"
+
+                  android:orientation="vertical"
+
+                  android:background="@android:color/background_dark">
+        <!--background_dark-->
+
+                  
+		    
+
+        <ListView
+                android:id="@+id/lv_fragment_drawer"
+
+                android:divider="@android:drawable/divider_horizontal_textfield"
+                android:dividerHeight="1dp"
+
+
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"/>
+
+        <Button
+                android:id="@+id/log_out_button"
+
+                android:text="Log out"
+
+                android:layout_marginTop="48dp"
+                android:layout_marginBottom="16dp"
+
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"
+
+
+                android:layout_weight="0"
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+
+                android:textColor="@android:color/white"
+
+                android:choiceMode="singleChoice"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0dp"
+
+                android:layout_gravity="center_horizontal|bottom"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

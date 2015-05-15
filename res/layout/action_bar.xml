@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:layout_gravity="center_vertical|right"
+              android:gravity="center_vertical|right"
+              android:descendantFocusability="beforeDescendants"
+              android:focusableInTouchMode="true">
+
+    <ImageView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:src="@drawable/action_search"/>
+
+    <com.spire.CustomAutoCompleteTextView
+        android:id="@+id/tv_actionbar_AutoComplete"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:ems="7"
+        android:imeOptions="actionSearch"
+        android:inputType="textAutoComplete|textAutoCorrect"
+        android:drawableRight="@drawable/navigation_cancel"
+        android:hint="@string/search_label"
+
+        android:textCursorDrawable="@null"
+
+        android:textColor="#FFFFFF">
+
+        </com.spire.CustomAutoCompleteTextView>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test"
+            android:visibility="gone"
+            android:id="@+id/btn_for_test"/>
+</LinearLayout>
+
+
+<!--<ImageView-->
+<!--android:layout_height="match_parent"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:src="@drawable/action_search"-->
+        <!--/>-->
