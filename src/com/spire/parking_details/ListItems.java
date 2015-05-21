@@ -1,6 +1,7 @@
 package com.spire.parking_details;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created with IntelliJ IDEA.
  * User: volodymyr
  * E-mail: volodymyr.n.paliy@gmail.com

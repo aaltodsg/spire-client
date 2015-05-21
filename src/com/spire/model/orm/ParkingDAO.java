@@ -10,7 +10,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by volodymyr on 02.08.13.
  */
 public class ParkingDAO extends BaseDaoImpl<Parking, Integer>{

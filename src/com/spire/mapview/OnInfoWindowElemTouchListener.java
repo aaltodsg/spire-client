@@ -8,9 +8,8 @@ import android.view.View;
 
 import com.google.android.gms.maps.model.Marker;
 
-
-
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created with IntelliJ IDEA.
  * User: volodymyr
  * E-mail: volodymyr.n.paliy@gmail.com

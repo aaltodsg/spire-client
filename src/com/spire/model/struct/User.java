@@ -11,7 +11,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by evgeniy on 19.08.13.
  */
 public class User {

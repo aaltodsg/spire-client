@@ -1,3 +1,8 @@
+# License for original code in this project
+
+Licensed under the MIT license: http://opensource.org/licenses/mit-license.html
+Copyright (C) Aalto University 2014
+
 # This software contains code from the following sources / projects
 
 ActivityRecognitionIntentService, DetectionRemover, DetectionRequester:
@@ -17,8 +22,3 @@ volley:
 Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
 Copyright (C) 2012 The Android Open Source Project
 
-# License for the original code
-
-The original code in this project is licensed under the MIT license.
-MIT-License: http://opensource.org/licenses/mit-license.html
-Author information is included in the source files.

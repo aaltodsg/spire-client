@@ -11,7 +11,8 @@ import com.spire.model.struct.Parking;
 
 import java.sql.SQLException;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by volodymyr on 02.08.13.
  */
 public class DatabaseHelper extends OrmLiteSqliteOpenHelper {

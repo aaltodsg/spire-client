@@ -9,7 +9,8 @@ import com.spire.debug.Debug;
 import com.spire.model.Communications;
 import com.spire.model.struct.GcmVars;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by evgeniy on 13.08.13.
  */
 

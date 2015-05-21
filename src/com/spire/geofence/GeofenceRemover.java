@@ -1,6 +1,7 @@
 package com.spire.geofence;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by evgeniy on 17.08.13.
  */
 import android.app.Activity;

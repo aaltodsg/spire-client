@@ -14,7 +14,8 @@ import com.spire.model.Communications;
 
 import java.util.ArrayList;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by volodymyr on 09.08.13.
  */
 public class AutoCompleteTextAdapter extends ArrayAdapter<String> implements Filterable {

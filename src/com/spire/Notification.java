@@ -12,7 +12,8 @@ import com.spire.model.IntentActions;
 import com.spire.model.struct.Parking;
 import com.spire.parking_details.ParkingDetails;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created with IntelliJ IDEA.
  * User: volodymyr
  * Date: 03.07.13

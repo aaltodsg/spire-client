@@ -8,7 +8,8 @@ import android.view.View;
 import android.widget.AutoCompleteTextView;
 import com.spire.debug.Debug;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by volodymyr on 12.08.13.
  */
 public class CustomAutoCompleteTextView extends AutoCompleteTextView {

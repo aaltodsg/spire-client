@@ -22,7 +22,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created with IntelliJ IDEA.
  * User: volodymyr
  * E-mail: volodymyr.n.paliy@gmail.com

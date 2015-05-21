@@ -4,7 +4,8 @@ import java.util.TimerTask;
 
 // Timer class to avoid flooding of ViewUpdate requests in Communications.java
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by evgeniy on 04.09.13.
  */
 public class RequestTimerUpdate extends TimerTask{

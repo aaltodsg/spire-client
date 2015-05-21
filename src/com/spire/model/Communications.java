@@ -35,7 +35,8 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Timer;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by evgeniy on 24.07.13.
  */
 

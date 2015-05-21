@@ -31,9 +31,11 @@ import com.spire.model.struct.User;
 
 import java.util.ArrayList;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created on 19.08.13.
  */
+
 public class Authentication extends ActivitySurvey implements
         GooglePlayServicesClient.ConnectionCallbacks, GooglePlayServicesClient.OnConnectionFailedListener, View.OnClickListener {
 

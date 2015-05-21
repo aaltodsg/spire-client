@@ -2,7 +2,8 @@ package com.spire.model.struct;
 
 import com.google.android.gms.maps.model.Marker;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by evgeniy on 01.08.13.
  */
 

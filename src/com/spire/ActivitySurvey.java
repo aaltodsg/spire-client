@@ -11,7 +11,8 @@ import android.support.v4.content.LocalBroadcastManager;
 import com.spire.debug.Debug;
 import com.spire.model.struct.GcmVars;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by evgeniy on 23.08.13.
  */
 

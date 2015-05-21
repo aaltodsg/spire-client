@@ -11,7 +11,8 @@ import com.spire.debug.Debug;
 import com.spire.geofence.ReceiveTransitionsIntentService;
 import com.spire.model.Communications;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by evgeniy on 13.08.13.
  */
 

@@ -28,7 +28,8 @@ import com.spire.parking_details.ParkingDetails;
 import java.sql.SQLException;
 import java.util.List;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created with IntelliJ IDEA.
  * User: volodymyr
  * Date: 10.07.13

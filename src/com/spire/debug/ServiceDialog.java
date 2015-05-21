@@ -6,7 +6,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by evgeniy on 17.08.13.
  */
 public class ServiceDialog extends Activity {

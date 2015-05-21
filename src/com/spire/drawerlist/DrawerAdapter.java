@@ -14,7 +14,8 @@ import com.spire.MainActivity;
 import com.spire.R;
 
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created with IntelliJ IDEA.
  * User: volodymyr
  * Date: 03.07.13

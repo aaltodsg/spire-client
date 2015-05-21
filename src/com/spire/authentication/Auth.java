@@ -17,7 +17,8 @@ import com.spire.model.Communications;
 import com.spire.model.IntentActions;
 import com.spire.model.struct.JsonVars;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by evgeniy on 23.08.13.
  */
 public class Auth extends Authentication {

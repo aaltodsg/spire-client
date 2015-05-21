@@ -5,7 +5,8 @@ import android.content.Intent;
 import android.util.Log;
 import android.widget.Toast;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by evgeniy on 17.08.13.
  */
 

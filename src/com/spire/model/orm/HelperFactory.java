@@ -1,3 +1,5 @@
+/* Copyright (C) Aalto University 2014 */
+
 package com.spire.model.orm;
 
 import android.content.Context;

@@ -16,7 +16,8 @@ import com.spire.debug.Debug;
 import com.spire.model.Communications;
 import com.spire.model.struct.User;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by evgeniy on 10.09.13.
  */
 public class AuthActivity extends FragmentActivitySurvey implements GooglePlayServicesClient.ConnectionCallbacks, GooglePlayServicesClient.OnConnectionFailedListener, View.OnClickListener{

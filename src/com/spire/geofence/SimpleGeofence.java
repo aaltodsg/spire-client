@@ -1,3 +1,5 @@
+/* Copyright (C) Aalto University 2014 */
+
 package com.spire.geofence;
 
 import com.spire.model.struct.Parking;

@@ -1,6 +1,7 @@
 package com.spire.parking_procedure;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by evgeniy on 14.08.13.
  */
 public class UserActivityStruct {

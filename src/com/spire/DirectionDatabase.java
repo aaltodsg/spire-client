@@ -1,3 +1,5 @@
+/* Copyright (C) Aalto University 2014 */
+
 package com.spire;
 
 import java.io.IOException;

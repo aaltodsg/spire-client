@@ -1,6 +1,7 @@
 package com.spire.model;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by volodymyr on 08.08.13.
  */
 public class IntentActions {

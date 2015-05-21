@@ -6,7 +6,8 @@ import com.j256.ormlite.field.DatabaseField;
 
 import com.j256.ormlite.table.DatabaseTable;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by volodymyr on 02.08.13.
  */
 @DatabaseTable(tableName = "Parkings")

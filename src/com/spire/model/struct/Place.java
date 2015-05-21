@@ -1,6 +1,7 @@
 package com.spire.model.struct;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by volodymyr on 05.08.13.
  */
 public class Place {

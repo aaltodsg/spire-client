@@ -1,6 +1,7 @@
 package com.spire.geofence;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by volodymyr on 01.08.13.
  */
 public class GeofenceUtils {

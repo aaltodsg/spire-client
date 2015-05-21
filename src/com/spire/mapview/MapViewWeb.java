@@ -14,7 +14,8 @@ import android.webkit.WebView;
 
 import com.spire.R;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created with IntelliJ IDEA.
  * User: volodymyr
  * E-mail: volodymyr.n.paliy@gmail.com

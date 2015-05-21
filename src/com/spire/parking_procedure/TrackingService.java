@@ -1,6 +1,7 @@
 package com.spire.parking_procedure;
 
-/**
+/* Copyright (C) Aalto University 2014
+ *
  * Created by evgeniy on 13.08.13.
  */
 
